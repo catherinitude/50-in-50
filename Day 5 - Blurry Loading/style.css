@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+
+* {
+     box-sizing: border-box;
+}
+
+body {
+     font-family: 'Chango', sans-serif;
+     font-weight: 900;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+     margin: 0;
+     overflow: hidden;
+}
+.bg {
+     background: url('./img/pexels-markus-spiske-177598.jpg') no-repeat center
+          center/cover;
+     position: absolute;
+     top: -30;
+     left: -30;
+     width: calc(100vw + 60px);
+     height: calc(100vh + 60px);
+     z-index: -1;
+     filter: blur(0px);
+}
+
+.loading-text {
+     font-size: 50px;
+     color: white;
+}
