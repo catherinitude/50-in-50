@@ -103,3 +103,16 @@ main{
 .movie:hover .overview{
      transform: translateY(0)
 }
+
+.attr{
+     color: white;
+     margin: 3rem;
+     display: flex;
+     flex-direction: column;
+}
+.attr img{
+     max-width: 50px;
+}
+.attr a{
+     color:white;
+}
