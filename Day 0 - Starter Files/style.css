@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@300;600&family=Fredoka+One&family=Original+Surfer&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 *{
      box-sizing: border-box;
 }
 
 body{
-     font-family: 'Poiret One', sans-serif;
+     font-family: 'Inter', sans-serif;
      display: flex;
      flex-direction: column;
      align-items: center;
